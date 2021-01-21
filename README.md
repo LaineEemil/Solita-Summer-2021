@@ -15,7 +15,7 @@ Things to type in the console:
 1. npm install
 2. ng serve
 
-Head to localhost:4200 - Where the program is running
+Head to localhost:4200
 
 ## Other
 The file for names can be found locally from ./src/app/files/names.json
