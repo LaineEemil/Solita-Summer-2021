@@ -1,0 +1,21 @@
+
+<section style="text-align:center">
+  <div class="example-button-row">
+    <button mat-raised-button (click)="order_amount();">List names and amounts, order by amount, most popular first</button>
+    <button mat-raised-button (click)="order_alpha();">List names in alphabetical order</button>
+    <button mat-raised-button (click)="amount();">Return the total amount of all the names</button><br><br>
+    <button mat-raised-button (click)="amount_para(box.value);">Return the amount of the name given as a parameter</button>
+    <input type="text" #box>
+  </div>
+</section>
+
+<div style="text-align:center">
+  <h2>
+    Names listed from local names.json file
+  </h2>
+<ul *ngFor="let item of nameList">
+  <li>
+    <h3>Name: {{item.name}}, Amount: {{item.amount}}</h3>
+  </li>
+</ul>
+</div>
