@@ -11,7 +11,7 @@ This is Solita 2021 dev-academy-2021 exercise
 
 
 ## How to run the code
-Things to type to console:
+Things to type to the console:
 1. npm install
 2. ng serve
 
